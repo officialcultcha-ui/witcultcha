@@ -1,4 +1,42 @@
 
+        <!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="cultcha2.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultcha</title>
+    <link rel="icon" type="image/x-icon" href="Assets/logo.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@300;400;700&display=swap');
+        html { scroll-behavior: smooth; }
+
+        .blur-bg { backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+
+        .grain-overlay {
+            position: fixed;
+            inset: 0;
+            background-image: url(Assets/grain\ bgd.svg);
+            opacity: 0.07;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        /* Contact Form Styling */
+        .contact-form-container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(0,0,0,0.7);
+            padding: 30px;
+            border-radius: 14px;
+            border: 1px solid #333;
+        }
         .contact-form-container input,
         .contact-form-container textarea {
             width: 100%;
